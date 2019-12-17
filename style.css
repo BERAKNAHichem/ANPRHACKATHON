@@ -1,0 +1,180 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/* 
+.wrapper {
+  display: flex;
+  align-items: stretch;
+} */
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+  /*color: rgb(0, 0, 0);*/
+    text-align:center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:24px;
+    font-style: inherit;
+    color:#0069af;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar li.active {
+  background-color: #e2e3e5;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar li:hover:not(.active) {
+  background-color: #bebebe;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+  margin-left: 200px;
+  padding: 10px 16px;
+  height: 1000px;
+  
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+    
+  }
+  .sidebar li {
+    float: left;
+    list-style: none;
+  }
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar li {
+    text-align: center;
+    float: none;
+  }
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+.mtab_content {
+  display: none;
+}
+
+.logo {
+  width: 200px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.list-group-item.active {
+  background-color: #ff9823;
+  text-shadow: 2px 2px 2px rgb(81, 119, 245);
+}
+
+.maintitle{
+    text-align:center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:24px;
+    font-style: inherit;
+    color:#0069af;
+    /*text-decoration: solid;*/
+    margin-top:25px;
+    
+}
+
+.myapp{
+    text-align:center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:24px;
+    color:#0069af;
+    font-style: inherit;
+    margin-top:40px;
+}
+
+.list-group-item {
+    position: relative  ;
+    display: block;
+    padding: .50rem 0.50rem;
+    bottom: 25%;
+    left: 0;
+    height: 50%;
+    width: 450px;
+    margin-bottom: -2px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.droit{
+    margin-left:850px;
+    margin-top:-13%;
+}
+.gauche{
+    margin-left:2px;
+    margin-top:4%;
+    background:"backround4.jpg";
+}
+
+.graphh{
+    margin-left:185px;
+    margin-top:4%;
+}
+
+.h1 {
+    
+    font-family: Roboto, sans-serif;
+    color: #FFF;
+    font-size: 14px;
+    }
+
+.agricom{
+    margin-bottom:10px;
+}
